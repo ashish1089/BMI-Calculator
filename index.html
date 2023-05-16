@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,24 @@
     <link rel="stylesheet" href="./styles.css">
     <title>BMI Calculator</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1 class="titile">BMI Calculator</h1>
+        <div class="weight-wrapper">
+            <input class="weight" type="number" placeholder="Weight-kg" autocomplete="off">
+        </div>
+        <div class="height-wrapper">
+            <input class="height" type="number" placeholder="Height-kg" autocomplete="off">
+        </div>
+        
+        <div class="bmi-container">
+            <div id="result">BMI</div>
+            <div class="bmi-category">Body Weight</div>
+        </div>
+
+    </div>
     <script src="./app.js"></script>
 </body>
+
 </html>

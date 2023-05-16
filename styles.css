@@ -1,5 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 70vh;
+    min-width: 25vw;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 2px #000;
+    background-color: #817e7e;
+    padding: 1rem;
+}
+
+.title {
+    text-align: center;
+    color: #000;
+}
+
+.weight-wrapper,
+.height-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.bmi-container {
+    color: #fff;
+    background: #332f2f;
+    margin: 4rem  1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+#result {
+    font-size: 4rem;
+    max-width: 35vh;
+}
+.bmi-category {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 10px
 }
