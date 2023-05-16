@@ -2,7 +2,7 @@ const container = document.querySelector('.container')
 const weightElement = document.querySelector('.weight')
 const heightElement = document.querySelector('.height')
 const result = document.getElementById('result')
-const bmiCategory = document.querySelector('.bmi')
+const bmiCategory = document.querySelector('.bmi-category')
 
 
 let weight;
